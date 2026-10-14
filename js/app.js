@@ -1,5 +1,5 @@
 /* =========================================================
-   FAJARA GARDEN APP
+   TIMBUK2 APP
 ========================================================= */
 
 
@@ -1648,7 +1648,7 @@ if (checkoutButton) {
                 );
 
             const message =
-                `Hello Fajara Garden 👋\n\n` +
+                `Hello Timbuk2 👋\n\n` +
                 `I'd like to place this order:\n\n` +
                 `${orderLines}\n\n` +
                 `Total: D${total}\n\n` +
@@ -2945,7 +2945,7 @@ function setupReservation() {
 
             const reservationMessage =
                 encodeURIComponent(
-                    "Hello Fajara Garden 👋 I would like to reserve a table."
+                    "Hello Timbuk2 👋 I would like to reserve a table."
                 );
 
 
@@ -3093,7 +3093,7 @@ function setupGardenAIIntro() {
     if (gardenAIDescription) {
 
         gardenAIDescription.textContent =
-            `I'll check what's available for ${period.label} at Fajara Garden, ask you a few quick questions and build a recommendation around what you actually like.`;
+            `I'll check what's available for ${period.label} at Timbuk2, ask you a few quick questions and build a recommendation around what you actually like.`;
 
     }
 
@@ -4630,7 +4630,7 @@ function setupDemoSaleBanner() {
 
             <p>
 
-                This Fajara Garden website was
+                This Timbuk2 website was
                 designed by Israel from
                 <strong>Squashberry Co.</strong>
                 and is available for purchase.
